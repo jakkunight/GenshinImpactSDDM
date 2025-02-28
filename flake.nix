@@ -24,7 +24,7 @@
       flake = false;
     };
   };
-  outputs = { self, nixpkgs, flake-utils, ... } @inputs: flake-utils.lib.eachDefaultSystem (system: 
+  outputs = { self, nixpkgs, flake-utils, ... } @ inputs: flake-utils.lib.eachDefaultSystem (system:
   let
     pkgs = nixpkgs.legacyPackages.${system};
   in
@@ -39,7 +39,6 @@
         qtmultimedia
         qtquickcontrols
         qtgraphicaleffects
-
       ];
       dontBuild = true;
       installPhase = ''
