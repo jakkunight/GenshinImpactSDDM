@@ -1,0 +1,116 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1731533236,
+        "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "genshin-theme": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1736125105,
+        "narHash": "sha256-QkYUvZEXKbywLrumYvnLqmkrmDIUxYjM0XPOaXi9cFI=",
+        "owner": "nicefaa6waa",
+        "repo": "genshin-sddm-theme",
+        "rev": "663aa35efc6a488622043cc818db734638d552fd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nicefaa6waa",
+        "repo": "genshin-sddm-theme",
+        "type": "github"
+      }
+    },
+    "morningbg": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-lT8SVyQ2yINzLaFk+jNAiM3j8fLdudFYtyEoqM1EjTM=",
+        "type": "file",
+        "url": "https://www.dropbox.com/scl/fi/8om5p5d3ul984krbnhfgu/morningbg.mp4?dl=0&rlkey=jedf5qcycj310oqx8djy9yomz&st=yupg7zz8"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://www.dropbox.com/scl/fi/8om5p5d3ul984krbnhfgu/morningbg.mp4?dl=0&rlkey=jedf5qcycj310oqx8djy9yomz&st=yupg7zz8"
+      }
+    },
+    "nightbg": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-t0her2y3jrh1UtZz0Sc2hHLmF1qr71TXg+47oISeD2Y=",
+        "type": "file",
+        "url": "https://www.dropbox.com/scl/fi/e6kio0zet8j5lax9ztu7y/nightbg.mp4?dl=0&rlkey=29ni1jq0a9sr02b6l0s61oiiq&st=en7rqgmy"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://www.dropbox.com/scl/fi/e6kio0zet8j5lax9ztu7y/nightbg.mp4?dl=0&rlkey=29ni1jq0a9sr02b6l0s61oiiq&st=en7rqgmy"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1736165001,
+        "narHash": "sha256-yzJ1sVh3OKg0GiBGeoMdBpwIX1nEjvTFV2fphhbWsek=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "ddff3263299e09069c7800fb83d61c8d75b5346c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "genshin-theme": "genshin-theme",
+        "morningbg": "morningbg",
+        "nightbg": "nightbg",
+        "nixpkgs": "nixpkgs",
+        "sunrisebg": "sunrisebg"
+      }
+    },
+    "sunrisebg": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-NWvoFkeDzYxCnciUlksWwHnBBy2ZMI6Uv6nvUSStOpI=",
+        "type": "file",
+        "url": "https://www.dropbox.com/scl/fi/f3x5jfr8sk06ij3c8kgoy/sunrisebg.mp4?dl=0&rlkey=r0lzylvhze4lq3xglwkvf4iya&st=ybukfsgv"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://www.dropbox.com/scl/fi/f3x5jfr8sk06ij3c8kgoy/sunrisebg.mp4?dl=0&rlkey=r0lzylvhze4lq3xglwkvf4iya&st=ybukfsgv"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
