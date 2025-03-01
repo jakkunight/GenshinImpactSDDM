@@ -43,10 +43,10 @@
       dontBuild = true;
       installPhase = ''
         mkdir -p $out
-        cp -r ${inputs.nightbg} ./backgrounds
-        cp -r ${inputs.morningbg} ./backgrounds
-        cp -r ${inputs.sunrisebg} ./backgrounds
         cp -R ./* $out/
+        cp ${inputs.nightbg} $out/backgrounds
+        cp ${inputs.morningbg} $out/backgrounds
+        cp ${inputs.sunrisebg} $out/backgrounds
       '';
     };
   });
